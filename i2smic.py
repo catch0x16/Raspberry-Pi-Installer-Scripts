@@ -36,7 +36,7 @@ Installing...""")
     shell.run_command("apt-get -y install git raspberrypi-kernel-headers")
 
     # Clone the repo
-    shell.run_command("git clone https://github.com/adafruit/Raspberry-Pi-Installer-Scripts.git")
+    shell.run_command("git clone https://github.com/catch0x16/Raspberry-Pi-Installer-Scripts.git")
 
     # Build and install the module
     shell.chdir("Raspberry-Pi-Installer-Scripts/i2s_mic_module")
